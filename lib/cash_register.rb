@@ -23,4 +23,7 @@ class CashRegister
       end 
     end 
     
+    def item 
+      @cart 
+    end 
 end 
