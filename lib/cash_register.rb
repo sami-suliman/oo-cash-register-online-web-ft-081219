@@ -23,7 +23,4 @@ class CashRegister
       end 
     end 
     
-    def item 
-      
-    end 
 end 
