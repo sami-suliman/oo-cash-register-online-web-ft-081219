@@ -14,7 +14,7 @@ class CashRegister
         @cart << title
       end
       self.last_transaction = price * quantity
-      @total += (price * quantity)   
+      @total += self.last_transaction   
     end 
     
     def apply_discount
